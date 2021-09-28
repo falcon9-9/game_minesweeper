@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MINESWEEPER</title>
+</head>
+<body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>minesweeper</title>
+    <link rel="stylesheet" href="saolei.css">
+</head>
+<body>
+    <div class="wrapper">
+        <h1>MINESWEEPER</h1>
+        <div id="minesweeper" class="easy" data-todelete="easy">
+            <ul class="level-select">
+                <li><button id="id-button-easy" data-level="easy" data-row="9" data-colum="9" data-lei="15">Easy</button></li>
+                <li><button id="id-button-mid" data-level="mid" data-row="16" data-colum="16" data-lei="40">Medium</button></li>
+                <li><button id="id-button-hard" data-level="hard" data-row="20" data-colum="16" data-lei="80">Hard</button></li>
+            </ul>
+            <div class="menu">
+                <ul>
+                    <li class="timer">00:00</li>
+                    <li class="reset"><button> :) </button></li>
+                    <li class="mine-count">015</li>
+                </ul>
+            </div>
+            <div id="id-div-mime"></div>
+        </div>
+    </div>
+    <div class="modal-container hide">
+        <div class="modal-mask"></div>
+        <div class="modal-alert vertical-center">
+        </div>
+    </div>
+
+    <script src="falcon.js"></script>
+    <script src="randomlei.js"></script>
+    <script src="saolei.js"></script>
+</body>
+</html>
